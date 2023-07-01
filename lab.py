@@ -73,7 +73,7 @@ class Pump:
         self.address = address
         self.path = self.ADV_PATH
         self.labels = ["value"]
-        self.seed = 'medical devices need security too'
+        self.seed = 'm3d1c4l devices need security too'
 
     def _gen_url(self, parameters: Dict = None):
         """
