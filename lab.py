@@ -12,7 +12,7 @@ traces via live capture or a pre-captured file.
 This module also provides a helper function (plot_sm) to plot the returned data.
 """
 
-# Copyright 2019 The MITRE Corporation
+# Copyright 2019-2023 The MITRE Corporation
 # Approved for Public Release; Distribution Unlimited. Case Number 18-2369
 # Modified for Python 2-3 compatibility 6/2019
 # Modified proxy configuration 2/2020
@@ -41,7 +41,7 @@ import matplotlib.pyplot as plt
 from typing import Dict
 
 # Listening port for our data capture server
-SERVER_ADDR = "woodbad.pythonanywhere.com"
+SERVER_ADDR = "dtwalter.pythonanywhere.com"
 SERVER_PORT = 80
 
 
